@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Zeynep Uslu's Personal Website</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://blackrockdigital.github.io/startbootstrap-scrolling-nav/css/bootstrap.min.css" rel="stylesheet">
+   <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+
+    <!-- Custom CSS -->
+    <link href="https://blackrockdigital.github.io/startbootstrap-scrolling-nav/css/scrolling-nav.css" rel="stylesheet">
+    
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               <a class="navbar-brand page-scroll" href="#page-top"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll showcase" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+    <div class= "showcase">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                   <!-- <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" id="wp">  
+                    <div id="photoWrapper">
+                        <%= image_tag('meryl.jpg', alt: 'photo', class: 'img-circle', height:"250",width:"200", id: 'profile', padding: "0, 20px") %>    
+                    </div> 
+                                                                         
+                </div>
+            </div>
+        </div>
+    </section>    
+    
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>My Experience</h1>
+                     <section class="timeline">
+                      <ul>
+                        <li>
+                          <div>
+                            <time>2014</time> I started my first internship in Bilge Techology, Istanbul.
+                            During my internship, I designed my very website with ASP.NET, gained experience 
+                            with other essentials of web design such as html, javascript and jQuery.
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <time>2015</time> 
+                            Casually worked on with data-mining algorithms such as k-means and  DBSCAN on my free time left from school. Later on, in my senior year I had the chance to improve my knowledge in the data-mining course.     
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <time>2015</time> I started my second internship in Vetident, Istanbul .
+                            I had the chance to advance my knowledge about ASP.NET and introduced with MVC
+                            framework.  
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <time>2016</time> I completed my first Android application for my senior project
+                            which was designed for helping visually impaired students in Binghamton University.
+                            The app includes the Binghamton University map, mail application, Blackboard application. 
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <time>2016</time> Completed a home-automation project with Android and Raspberry PI.
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <time>2016</time> Established my own company Asitane LLC after graduating from university. 
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <time>2017</time> Launched my personal website which I designed and built from scratch using Rails and Bootstrap and of course the essentials html, javascript, jquery
+                          </div>
+                        </li>
+                      </ul>
+                    </section>
+                    <a href="" class="button" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact</h1>
+                    <section class="main">
+                        <ul class="ch-grid">
+                                <li>
+                                    <div class="ch-item">               
+                                        <div class="ch-info">
+                                            <div class="ch-info-front">
+                                                <div class="icon">
+                                                    <i class="fa fa-linkedin" style="font-size:50px"></i>
+                                                </div>
+                                            </div>
+
+                                            <div class="ch-info-back">
+                                                <a class="glow" href="https://www.linkedin.com/in/zeynep-uslu-006007b4/">LinkedIn</a>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ch-item">
+                                        <div class="ch-info">
+                                            <div class="ch-info-front">
+                                                <div class="icon">
+                                                    <i class="fa fa-github" style="font-size:50px"></i>
+                                                </div>
+                                            </div>
+                                            <div class="ch-info-back">
+                                                <a class="glow" href="https://github.com/zuslu">Github</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ch-item">
+                                        <div class="ch-info">
+                                            <div class="ch-info-front">
+                                                <div class="icon">
+                                                    <i class="fa fa-codepen" style="font-size:50px"></i>
+                                                </div>
+                                            </div>
+                                            <div class="ch-info-back">
+                                                <a class="glow" href="https://codepen.io/zeynepuslu/">codepen</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                  <li>
+                                    <div class="ch-item">
+                                        <div class="ch-info">
+                                            <div class="ch-info-front">
+                                                <div class="icon">
+                                                    <i class="fa fa-envelope-o" style="font-size:50px"></i>
+                                                </div>
+                                            </div>
+                                            <div class="ch-info-back">
+                                                <%= link_to "Say Hello", new_contact_path, class: 'glow'%>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://blackrockdigital.github.io/startbootstrap-scrolling-nav/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://blackrockdigital.github.io/startbootstrap-scrolling-nav/js/bootstrap.min.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="https://blackrockdigital.github.io/startbootstrap-scrolling-nav/js/jquery.easing.min.js"></script>
+    <script src="https://blackrockdigital.github.io/startbootstrap-scrolling-nav/js/scrolling-nav.js"></script>
+    
+</body>
+
+</html>

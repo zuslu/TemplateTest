@@ -1,0 +1,97 @@
+// Place all the styles related to the contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#contactButton{
+	padding:10px;
+	margin: 20px auto;
+	width:150px;
+	height:70px;
+	color:black;
+	background: #A0B6CB;
+	display:inline-block;
+	text-align:center;
+	vertical-align: middle;
+	font-size:25px;
+	transition: width 2s;
+	-webkit-transition: width 2s;
+}
+
+#contactButton a:link{
+	text-decoration:none;
+	color:black;
+}
+#contactButton a:hover{
+	text-decoration:none;
+	color:black;
+	transition: box-shadow 2s;
+
+}
+#contactButton:hover{
+	text-decoration:none;
+	-webkit-box-shadow: 0 12px 6px -6px #595959;
+    -moz-box-shadow: 0 12px 6px -6px #595960;
+         box-shadow: 0 12px 6px -6px #595959;
+}
+
+.hidden{
+	display: none;
+}
+body{
+	background: #eee;
+	color:black;
+}
+
+#heading{
+  margin: 60px auto;
+  width: 80%;
+  height: 20px;
+  border-bottom: 1px solid black; 
+  text-align: center
+}
+span{
+	/*text-align:center;*/
+	margin-top:60px;
+	font-size: 30px;
+	background: #eee;
+	padding:0 20px;  
+}
+
+input[type=text]{
+	width:100%;
+	padding:4px;
+}
+
+input[type=submit]{
+	width:100px;
+}
+
+label{
+	font-size:20px;
+	margin:10px;
+
+}
+textarea{
+	width:100%;
+	height:200px;
+	padding:8px;
+}
+
+#contactform{
+	padding:40px;
+	margin-top:5%;
+	margin-left:20%;
+	margin-right:20%;
+}
+.center {
+    text-align: center;
+}
+p.center{
+	font-size:22px;
+}
+#conMes{
+	margin-top: 50px;
+	a{
+		display:block;
+		font-size:20px;
+	}
+}

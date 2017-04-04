@@ -1,0 +1,90 @@
+body{
+	font-family: 'Libre Baskerville', serif !important;
+}
+.navbar-nav{
+	position: absolute;
+    margin: 0 0 0 -150px !important;
+    left: 50%;
+    right: 50%;
+    width: 300px;
+    /*background: blue;*/
+}
+.navbar-collapse.collapse {
+	text-align: center;
+}
+
+.navbar-nav{
+	li{
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float:left;
+        margin: 0 0 0 -150px;
+        /*position: absolute;*/
+    }
+
+    .navbar-nav>li {
+        float: left;
+        width: 100px;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+}
+.showcase {
+  background: url("background1.png") no-repeat center center fixed !important;
+  background-attachment: scroll !important;
+  background-size:cover;
+  height: 100%;
+  widht: 100%;
+  padding: 30px 0; }
+
+#wp::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: black;
+  margin-top: -135px; 
+}
+#photoWrapper{
+  width:  230px;
+  height: 250px;
+  margin: 0 auto;
+  background: #eee;
+  text-align:center;
+  position: relative;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+}
+#profile{
+  display: inline-block;
+  height: 100%;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+.photo{
+	transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+.change{
+	transform: perspective(800px) rotateX(-90deg);
+}
+
+.about-section {
+  height: 100%;
+  padding-top: 50px !important;
+  text-align: center;
+  background: #eee;
+}  
+.services-section {
+  height: 200% !important;
+}
