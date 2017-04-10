@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'download/index'
+
+  get 'download/resume'
+
   get 'contacts/new'
 
   get 'contacts/create'
