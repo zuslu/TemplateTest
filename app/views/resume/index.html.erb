@@ -3,7 +3,7 @@
     <title>Zeynep Uslu</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Bootstrap Core CSS -->
     <link href="https://blackrockdigital.github.io/startbootstrap-scrolling-nav/css/bootstrap.min.css" rel="stylesheet">
    <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
@@ -68,15 +68,13 @@
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
-    <div class= "showcase">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                  <%= image_tag('background1.png', alt: 'showcase', ) %>
+                <div class="col-lg-12" id="showcase">
+                  <%= image_tag('background1.png', alt: 'showcase') %>
                 </div>
             </div>
         </div>
-    </div>
         
     </section>
 
@@ -85,12 +83,13 @@
     <section id="about" class="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12" id="wp">  
+                <div class="col-lg-12 col-md-12" id="wp">  
                     <div id="photoWrapper">
                         <%= image_tag('profile.jpg', alt: 'photo', class: 'img-circle', width:"200", id: 'profile', padding: "0, 20px") %>    
                     </div>                                                                          
                 </div>
-                <div id="abouttext">
+
+                <div class="row" id="abouttext">
                     <h3>Welcome to my page!</h3>
                      
                     I am Zeynep Uslu, a recent graduate of information systems engineering from SUNY at Binghamton and Istanbul Techical University. <br>
