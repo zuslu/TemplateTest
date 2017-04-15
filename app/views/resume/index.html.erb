@@ -70,7 +70,7 @@
     <section id="intro" class="intro-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12" id="showcase">
+                <div class="col-lg-12 col col-md-12" id="showcase">
                   <%= image_tag('background1.png', alt: 'showcase') %>
                 </div>
             </div>
@@ -106,14 +106,12 @@
         </div>
     </section>    
     
-
-    <!-- Services Section -->
-    <section id="services" class="services-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>My Experience</h1>
+                    
                      <section class="timeline">
+                        <h1>My Experience</h1>
                       <ul>
                         <li>
                           <div>
@@ -158,10 +156,11 @@
                           </div>
                         </li>
                       </ul>
-                    </section>
-                    <button>
+                      <button>
                         <%=link_to 'Download Resume', download_resume_path %>
                     </button>
+                    </section>
+                    
                 </div>
             </div>
         </div>

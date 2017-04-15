@@ -16,6 +16,11 @@ body {
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.timeline{
+  text-align: center;
+  padding:10% 0;
+
+}
 .timeline ul {
   /*background: #456990; blue*/
   padding: 50px 0;
@@ -26,7 +31,7 @@ body {
   position: relative;
   width: 6px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 50px;/*CONVERT PERCENTAGE*/
   background: #bebebe;/*color of the line*/
 }
 
@@ -45,8 +50,8 @@ body {
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 30px;
-  height: 30px;
+  width: 30px;/*CONVERT TO PERCENTAGE*/
+  height: 30px;/*CONVERT TO PERCENTAGE*/
   border-radius: 50%;
   background: #A0B6CB;
 }
@@ -54,7 +59,7 @@ body {
 .timeline ul li div {/*Timeline Subsection*/
   position: relative;
   bottom: 0;
-  width: 400px;
+  width: 400px;/*CONVERT TO PERCENTAGE*/
   padding: 15px;
   background: #A0B6CB;/*Subsection Color*/
   -webkit-box-shadow: 0 12px 6px -6px #595959;
@@ -74,7 +79,7 @@ body {
 }
 
 .timeline ul li:nth-child(even) div {
-  left: -439px;
+  left: -439px;/*CONVERT TO PERCENTAGE*/
 }
 
 .timeline ul li:nth-child(even) div::before {
@@ -120,11 +125,11 @@ button{
 }
 
 .timeline ul li:nth-child(odd) div {
-  transform: translate3d(200px, 0, 0);
+  transform: translate3d(200px, 0, 0); /*CONVERT TO PERCENTAGE*/
 }
 
 .timeline ul li:nth-child(even) div {
-  transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-200px, 0, 0); /*CONVERT TO PERCENTAGE*/
 }
 
 .timeline ul li.in-view div {
