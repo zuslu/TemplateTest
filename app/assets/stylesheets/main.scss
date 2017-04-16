@@ -40,10 +40,15 @@ body{
   background: no-repeat center center fixed !important;
   background-attachment: scroll !important;
   background-size:contain;
-  height: 80%;
-  widht: 100%;
-  padding: 5% 0; 
-  margin: 0 auto;
+  /*height: 80%;*/ 
+  /*margin: 0 auto;*/
+    img{
+      height : 80%;
+      width: 100%;
+      margin: 0 auto;
+      padding: 5% 0;
+      overflow: hidden;
+    }
   }
 
 #wp::after{
@@ -56,7 +61,8 @@ body{
 }
 #photoWrapper{
   width:  230px;
-  height: 250px;
+  height: 30%;
+  padding-bottom: 5%;
   margin: 0 auto;
   background: #eee;
   text-align:center;
@@ -88,8 +94,8 @@ body{
   background: #eee;
 }  
 #abouttext{
-  margin-top: 220px;
-  padding:30px;
+  margin-top: 20%;
+  padding:8%;
   font-size: 16px;
 }
 .services-section {
