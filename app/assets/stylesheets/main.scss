@@ -39,15 +39,11 @@ body{
 #showcase {
   background: no-repeat center center fixed !important;
   background-attachment: scroll !important;
-  background-size:contain;
-  /*height: 80%;*/ 
-  /*margin: 0 auto;*/
+  height:100%;
+  width:100%;
     img{
-      height : 80%;
-      width: 100%;
-      margin: 0 auto;
-      padding: 5% 0;
-      overflow: hidden;
+      max-width: 90%;
+      max-height: 100%;
     }
   }
 
