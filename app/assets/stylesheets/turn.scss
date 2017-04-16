@@ -138,7 +138,7 @@ a.glow:hover, a.glow:focus
 	transform: rotate3d(1,0,0,0deg);
 	opacity: 1;
 }
-.ch-grid {
+.main ul {
 	margin: 100px 0 0 0;
 	padding: 0;
 	list-style: none;
@@ -147,17 +147,17 @@ a.glow:hover, a.glow:focus
 	width: 100%;
 }
 
-.ch-grid:after,
+.main ul:after,
 .ch-item:before {
 	content: '';
     display: table;
 }
 
-.ch-grid:after {
+.main ul:after {
 	clear: both;
 }
 
-.ch-grid li {
+.main ul li {
 	width: 220px;
 	height: 220px;
 	display: inline-block;
