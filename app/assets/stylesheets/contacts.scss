@@ -47,13 +47,14 @@ body{
   height: 20px;
   border-bottom: 1px solid black; 
   text-align: center
-}
-span{
+
+  span{
 	/*text-align:center;*/
 	margin-top:60px;
 	font-size: 30px;
 	background: #eee;
 	padding:0 20px;  
+	}
 }
 
 input[type=text]{

@@ -36,6 +36,13 @@ body{
         padding-bottom: 15px
     }
 }
+
+/*****************INTRO SECTION***************/
+
+#intro-wrapper{
+  margin: 10% auto;
+  position:absolute;
+}
 #showcase {
   background: no-repeat center center fixed !important;
   background-attachment: scroll !important;
@@ -47,18 +54,21 @@ body{
     }
   }
 
-#wp::after{
-  content: '';
-  display: block;
+
+/******************ABOUT SECTION***************/
+
+
+#aboutinfo{
+  padding:5%;
+  text-align: center;
+  background: #eee;
   width: 100%;
-  height: 3px;
-  background: black;
-  margin-top: -135px; 
 }
+
 #photoWrapper{
-  width:  230px;
-  height: 30%;
-  padding-bottom: 5%;
+  height: 250px;
+  min-height: 100%;
+  /*padding-bottom: 5%;*/
   margin: 0 auto;
   background: #eee;
   text-align:center;
@@ -66,34 +76,62 @@ body{
   transition: all 0.5s linear;
   -webkit-transition: all 0.5s linear;
   -moz-transition: all 0.5s linear;
+
 }
+
 #profile{
   display: inline-block;
-  height: 90%;
+  height: inherit;
+  width: 34%;
+  padding: 1%;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
+
+  img {
+    height:100%;
+    max-height:100%;
+    margin: 0 auto;
+    }
 }
+
+
+
+
+#left{
+    float:left;
+    width:33%;
+    height: inherit;
+    padding-left:5%;
+}
+
+#right
+{
+    float:right;
+    width:33%;
+    height:inherit;
+    padding-right:5%;
+}
+#half{
+    height:50%;
+    border-bottom: 1px solid black;
+}
+#abouttext{
+  /*margin-top: 10%;
+  padding:8%;
+  bottom: 8%;*/
+  font-size: 16px;
+  height:60%;
+  padding-top:3%;
+}
+
+/**************** ABOUT ANIMATION CLASSES**************/
+
 .photo{
-	transition: all 0.3s linear;
+    transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
 }
 .change{
-	transform: perspective(800px) rotateX(-90deg);
-}
-
-.about-section {
-  height: 100%;
-  padding-top: 50px !important;
-  text-align: center;
-  background: #eee;
-}  
-#abouttext{
-  margin-top: 20%;
-  padding:8%;
-  font-size: 16px;
-}
-.services-section {
-  height: 200% !important;
+    transform: perspective(800px) rotateX(-90deg);
 }

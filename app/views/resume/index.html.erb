@@ -66,46 +66,86 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col col-md-12" id="showcase">
-                  <%= image_tag('background1.png', alt: 'showcase') %>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-
-    <!-- About Section -->
-
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12" id="wp">  
-                    <div id="photoWrapper">
-                        <%= image_tag('profile.jpg', alt: 'photo', class: 'img-circle', width:"200", id: 'profile', padding: "0, 20px") %>    
-                    </div>                                                                          
-                </div>
-
-                <div class="row" id="abouttext">
-                    <h3>Welcome to my page!</h3>
-                     
-                    I am Zeynep Uslu, a recent graduate of information systems engineering from SUNY at Binghamton and Istanbul Techical University. <br>
-                    I am interested in Front-end Web and Android development.<br> My other experineces ranges from desktop application development with Visual Studio(C#, C++), datamining and image processing.
-                    <br>
-                    <br>
-
-                    <h4>Skills</h4>
-                    Java, C#, C++, HTML, CSS, Javascript, Jquery <br> <br>
-                    <h4>Platforms</h4>
-                    Visual Studio, Eclipse, Android SDK
-                </div>
-            </div>
-        </div>
-    </section>    
+    <!-- Intro-->
     
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div id="intro-wrapper" style="position: relative">
+                        <%= image_tag('background1.png', alt: 'showcase', :class => "img-responsive") %>      
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+
+
+    <!-- About -->
+      <!--old  --> 
+        <!--<div class="container" id="aboutinfo">
+            <div class="row">
+                <div class="col-lg-12 col-md-12" >  
+                    <div id="wp">
+                        <div id="photoWrapper">
+                        <%= image_tag('profile.jpg', alt: 'photo', class: 'img-circle img-responsive', width:"200", id: 'profile') %>    
+                        </div> 
+                    </div>   
+                </div>
+                <div class="col-lg-12 col-md-12">  
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <div id="abouttext">
+                    <h3>Welcome to my page!</h3>
+                 
+                        I am Zeynep Uslu, a recent graduate of information systems engineering from SUNY at Binghamton and Istanbul Techical University. <br>
+                        I am interested in Front-end Web and Android development.<br> My other experineces ranges from desktop application development with Visual Studio(C#, C++), datamining and image processing.
+                        <br>
+                        <br>
+
+                        <h4>Skills</h4>
+                        Java, C#, C++, HTML, CSS, Javascript, Jquery <br> <br>
+                        <h4>Platforms</h4>
+                        Visual Studio, Eclipse, Android SDK
+                    </div>
+
+                </div>
+            </div>
+        </div>-->
+
+
+        <div class="container" id="aboutinfo">
+            <div class="row">
+                <div class="col-lg-12 col-md-12" >  
+                    <div id="photoWrapper">
+                        <div id=left>
+                            <div id="half"></div>
+                        </div>
+                        <div id="profile">
+                            <%= image_tag('profile.jpg', alt: 'photo', class: 'img-circle img-responsive') %> 
+                        </div>
+                        <div id="right">
+                            <div id="half"></div>
+                        </div>
+                    </div>
+                    <div id="abouttext">
+                        <h3>Welcome to my page!</h3>
+                 
+                        I am Zeynep Uslu, a recent graduate of information systems engineering from SUNY at Binghamton and Istanbul Technical University. <br>
+                        I am interested in Front-end Web and Android development.<br> My other experineces ranges from desktop application development with Visual Studio(C#, C++), datamining and image processing.
+                        <br>
+                        <br>
+
+                        <h4>Skills</h4>
+                        Java, C#, C++, HTML, CSS, Javascript, Jquery <br> <br>
+                        <h4>Platforms</h4>
+                        Visual Studio, Eclipse, Android SDK
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
